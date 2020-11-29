@@ -1,0 +1,17 @@
+from turtle import*
+setup(650,350,200,200)
+penup()
+seth(-180)
+fd(200)
+pensize(5)
+pencolor("purple")
+seth(0)
+for i in range(4):
+    penup()
+    fd(50)
+    pendown()
+    fd(50)
+    penup()
+    fd(50)
+    left(90)
+    penup()
